@@ -1,0 +1,6 @@
+*
+!plugins
+!.gitignore
+!craftbukkit-*.jar
+!spigot-*.jar
+!eula.txt

@@ -1,0 +1,19 @@
+version: "3.3"
+
+services:
+  app:
+    image: rossedlin/cryslo-10:1.8.8
+    ports:
+      - "25565:25565"
+      - "8123:8123"
+    stdin_open: true
+    tty: true
+    env_file:
+      - .env
+    volumes:
+      - ./tmp:/tmp
+      - server_1_8_8a:/minecraft/server
+
+
+volumes:
+  server_1_8_8a:
