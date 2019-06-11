@@ -6,7 +6,7 @@
 docker-compose down
 docker container prune -f
 git pull
-docker pull rossedlin/cryslo-10:1.8.8
+docker pull rossedlin/cryslo-10:1.13.2
 
 #
 # Start Server

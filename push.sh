@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker push rossedlin/minecraft:1.8.8
+docker push rossedlin/minecraft:1.13.2
